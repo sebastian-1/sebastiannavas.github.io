@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>The Portfolio of Sebastian Navas</title>
+		<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+		<link rel="stylesheet" href="css/reset.css" type="text/css" />
+        <link rel="stylesheet" href="css/lightbox.css">
+        
+        
+	</head>	
+	<body>
+		<div id="header">
+			<a href="index.html" class="logosn" >logo</a>
+		
+			<div id="burger-holder" onclick="ReverseHamburgerMenuDisplay()">
+
+                <img src="images/menu.svg" alt="navigation icon">
+
+                <div id="burger-menu">
+                    <div onmouseover="HamburgerMenuItemOver(this)" onmouseout="HamburgerMenuItemOut(this)" onclick="location.href='index.html'"><a href="#">Home</a></div>
+                    <div onmouseover="HamburgerMenuItemOver(this)" onmouseout="HamburgerMenuItemOut(this)" onclick="location.href='#'"><a href="#">About me</a></div>
+                    <div onmouseover="HamburgerMenuItemOver(this)" onmouseout="HamburgerMenuItemOut(this)" onclick="location.href='contact.html'"><a href="contact.html">Work</a></div>
+                    <div onmouseover="HamburgerMenuItemOver(this)" onmouseout="HamburgerMenuItemOut(this)" onclick="location.href='contact.html'"><a href="contact.html">contact</a></div>
+                </div>  
+            </div>
+		</div><!--end header-->
+        
+        
+        
+        
+		<div class="hi">
+			<h1>Hi! I'm Sebastian Navas.</h1>
+            <img src="images/selfieweb.png" alt="selfie" id="info" />
+        </div>
+		<div id="me">
+			
+			<h2>I'm a web designer in Belgium more precisely in Antwerp city. If you're looking for a freelancer you can always<a href="#">Contact me!</a></h2>
+			
+		</div><!--me-->
+        
+        
+        
+        <div id="about">
+            <h1>About me</h1>
+            <h2>Draft your design</h2>
+            <p>I draw all my designs before
+usings a designprogram. By doing
+this I can make your ideas come
+to life.</p>
+
+            <h2>Develop your work</h2>
+            <p>Nowadays we have many
+ways to connect with eachother.
+That’s the reason why I work 
+with the latest gizmos available.
+This way I can make your website
+run across serveral devices. </p>
+        </div><!--about-->
+        
+        <div id="works">
+		<ul>
+			<li><a href="images/calendar.jpg" data-lightbox="example-set" data-title="smashingmagazine calendar winner august 2014"><img src="images/calendar.jpg" alt=""></a></li>
+			<li><a href="images/boek.jpg" data-lightbox="example-set" data-title="Het parfum"><img src="images/boek.jpg" alt=""></a></li>
+			<li><a href="images/diamand.jpg" data-lightbox="example-set" data-title="Diamand"><img src="images/diamand.jpg" alt=""></a></li>
+			<li><a href="images/canvas.png" data-lightbox="example-set" data-title="Canvas"><img src="images/canvas.png" alt=""></a></li>
+			<li><a href="images/detijd.png" data-lightbox="example-set" data-title="De Tijd"><img src="images/detijd.png" alt=""></a></li>
+			<li><a href="images/flair.png" data-lightbox="example-set" data-title="Flair"><img src="images/flair.png" alt=""></a></li>
+			<li><a href="images/gp.png" data-lightbox="example-set" data-title="Greenpeace"><img src="images/gp.png" alt=""></a></li>
+			<li><a href="images/vtmkzoom.png" data-lightbox="example-set" data-title="VTMkzoom"><img src="images/vtmkzoom.png" alt=""></a></li>
+			<li><a href="images/negatieve-ruimte3.png" data-lightbox="example-set" data-title="Negatieve ruimte"><img src="images/negatieve-ruimte3.png" alt=""></a></li>
+			<li><a href="images/selfie.jpg" data-lightbox="example-set" data-title="selfie"><img src="images/selfie.jpg" alt=""></a></li>
+			<li><a href="images/escher.jpg" data-lightbox="example-set" data-title="echer"><img src="images/escher.jpg" alt=""></a></li>
+			<li><a href="images/friedrich.jpg" data-lightbox="example-set" data-title="friedrich"><img src="images/friedrich.jpg" alt=""></a></li>
+			<li><a href="images/hopper.jpg" data-lightbox="example-set" data-title="hopper"><img src="images/hopper.jpg" alt=""></a></li>
+			<li><a href="images/matisse.jpg" data-lightbox="example-set" data-title="matisse"><img src="images/matisse.jpg" alt=""></a></li>
+			<li><a href="images/malevich.jpg" data-lightbox="example-set" data-title="malevich"><img src="images/malevich.jpg" alt=""></a></li>
+			<li><a href="images/slogan.jpg" data-lightbox="example-set" data-title="slogan"><img src="images/slogan.jpg" alt=""></a></li>
+			
+		</ul>	
+		</div>
+        
+        <div id="contact">
+        <h1>Get in touch</h1>
+        <h2>Feel free to contact me
+at anytime!</h2>
+        <div id="form">
+            <form action="index.html" method="post" name="formulier" >
+                <label for="Name" class="label">Name</label>
+                <input id="Name" name="txt_Name" type="text"><br>
+                <label for="Email" class="label">Email</label>
+                <input id="Email" name="txt_Email" type="text"><br>
+                <label for="Message" class="label">Message</label>
+                <textarea id="Message" name="txt_Message" ></textarea> 
+                <input type="submit" value="hey" class="submit">
+               </form>
+            <a href="index.html" id="back"><h1>&larr; Back to the portfolio</h1></a>
+                </div>
+            
+        </div>
+        
+        
+		<footer>
+			<div><a href="" id="facebook" class="follow"><img src="images/fb.png" alt="" /></a></div>
+            
+		<h1>© 2014 Sebastian Navas. All rights reserved.</h1>					
+	</footer>
+        
+        
+        <script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/lightbox.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+	</body>
+</html>
